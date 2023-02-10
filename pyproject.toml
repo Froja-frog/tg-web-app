@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tg-food-bot"
+version = "0.1.0"
+description = ""
+authors = ["Froja-frog <75538844+Froja-frog@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "food_tg_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram={url = "https://github.com/aiogram/aiogram/archive/refs/heads/dev-3.x.zip"}
+python-dotenv = "^0.21.0"
+loguru = "^0.6.0"
+emoji = "^2.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
